@@ -1,5 +1,5 @@
-#ifndef ZOMBIE_H
-#define ZOMBIE_H
+#ifndef ZOMBIE_HPP
+#define ZOMBIE_HPP
 
 #include <string>
 
@@ -18,4 +18,4 @@ public:
 
 Zombie *zombieHorde(int n, std::string name);
 
-#endif // ZOMBIE_H
+#endif // ZOMBIE_HPP
