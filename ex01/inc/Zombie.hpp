@@ -1,3 +1,6 @@
+#ifndef ZOMBIE_H
+#define ZOMBIE_H
+
 #include <string>
 
 class Zombie
@@ -14,3 +17,5 @@ public:
 };
 
 Zombie *zombieHorde(int n, std::string name);
+
+#endif // ZOMBIE_H
