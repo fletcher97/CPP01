@@ -1,3 +1,4 @@
+
 ################################################################################
 # Makefile
 ################################################################################
@@ -37,7 +38,7 @@
 ################################################################################
 
 # Name of a single binary. Add as many variables as required by the project
-NAME1 := Account
+NAME1 := Unecessary_violence
 
 # The names of all the binaries. Add aditional variables created above separated
 # by space.
