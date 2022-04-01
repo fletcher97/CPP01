@@ -1,0 +1,19 @@
+cat test.txt
+./bin/Account test.txt "not_present" def
+cat test.txt.replace
+./bin/Account non_existing_file "abc" def
+cat test.txt.replace
+./bin/Account test.txt "abc" def
+cat test.txt.replace
+./bin/Account test.txt "def" abc
+cat test.txt.replace
+./bin/Account test.txt "abc abc" def
+cat test.txt.replace
+./bin/Account test.txt "def def" abc
+cat test.txt.replace
+./bin/Account test.txt "abc" abc
+cat test.txt.replace
+./bin/Account test.txt "a" b
+cat test.txt.replace
+./bin/Account test.txt "abc"$'\n'"def" new
+cat test.txt.replace
